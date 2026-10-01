@@ -1,0 +1,15 @@
+1. npm install playwright
+2. npx playwright install
+
+===
+
+3. npm install @playwright/test
+
+
+
+=========
+
+4. npm init playwright@latest
+
+
+npm install
