@@ -14,3 +14,13 @@
 
 
 npm install
+
+
+===========================
+
+1. get the laptop
+2. install nodejs
+3. git clone
+4. npm install
+5. npx playwright install
+6. execut the testcases
