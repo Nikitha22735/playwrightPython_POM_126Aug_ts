@@ -10,6 +10,7 @@ test('has title @smoke', async ({ page }) => {
 test('has title 2 @smoke', async ({ page }) => {
   await page.goto('https://www.amazon.in/');
 //   await expect(page).toHaveTitle("test")
+  await page.waitForTimeout(5000)
   await expect(page).not.toHaveTitle("test")
   await expect(page.locator('[aria-label="Amazon.in"]')).toBeVisible()
 
