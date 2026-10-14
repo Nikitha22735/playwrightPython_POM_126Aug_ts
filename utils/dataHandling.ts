@@ -23,3 +23,10 @@ export function redingExcel(filePath: string){
       let data = XLSX.utils.sheet_to_json(sheet)
       return data
 }
+
+import fs from 'fs'
+export function jsonHndling(filePath:String){
+      
+      let req = JSON.parse(fs.readFileSync(filePath))
+      return req
+}
